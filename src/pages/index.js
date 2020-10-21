@@ -6,7 +6,6 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Scroll from '../components/Scroll';
 import overLayPic from '../assets/images/overlay.png';
-import { Link } from 'gatsby';
 
 const sections = [
   { id: 'one', bg: require('../assets/images/pic01.jpg') },
@@ -24,14 +23,11 @@ const IndexPage = () => (
         </span>
         <div className="content">
           <header className="major">
-            <h2>Who I am</h2>
+            <h2>Quien Somos</h2>
           </header>
           <p>
-            Aliquam ante ac id. Adipiscing interdum lorem praesent fusce
-            pellentesque arcu feugiat. Consequat sed ultricies rutrum. Sed
-            adipiscing eu amet interdum lorem blandit vis ac commodo aliquet
-            integer vulputate phasellus lorem ipsum dolor lorem magna consequat
-            sed etiam adipiscing interdum.
+            Somos una barbería urbana y moderna, de calidad y buen precio donde
+            podrás obtener los mejores cambios y diseños que tengas en mente.
           </p>
         </div>
         <Scroll type="id" element="two">
@@ -49,28 +45,26 @@ const IndexPage = () => (
         </span>
         <div className="content">
           <header className="major">
-            <h2>Stuff I do</h2>
+            <h2>Servicios</h2>
           </header>
-          <p>
-            Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum
-            lorem blandit vis ac commodo aliquet vulputate.
-          </p>
           <ul className="icons-grid">
             <li>
-              <span className="icon major fa-camera-retro" />
-              <h3>Photography</h3>
+              <span className="icon major fa-map-signs" />
+              <h3>Contorno y barba ₡1500</h3>
             </li>
             <li>
-              <span className="icon major fa-pencil" />
-              <h3>Blogging</h3>
+              <span className="icon major fa-user" />
+              <h3>Contorno de cabello ₡750</h3>
             </li>
             <li>
-              <span className="icon major fa-code" />
-              <h3>Web Development</h3>
+              <span className="icon major fa-cut" />
+              <h3>
+                Corte de cabello <br></br>₡2500
+              </h3>
             </li>
             <li>
-              <span className="icon major fa-coffee" />
-              <h3>Sipping Coffee</h3>
+              <span className="icon major fa-balance-scale" />
+              <h3>Corte de cabello y barba ₡3500</h3>
             </li>
           </ul>
         </div>
@@ -89,14 +83,13 @@ const IndexPage = () => (
         </span>
         <div className="content">
           <header className="major">
-            <h2>One more thing</h2>
+            <h2>Una cosa más</h2>
           </header>
           <p>
-            Aliquam ante ac id. Adipiscing interdum lorem praesent fusce
-            pellentesque arcu feugiat. Consequat sed ultricies rutrum. Sed
-            adipiscing eu amet interdum lorem blandit vis ac commodo aliquet
-            integer vulputate phasellus lorem ipsum dolor lorem magna consequat
-            sed etiam adipiscing interdum.
+            Ven disfruta de nuestro servicio, cómodamente entre amigos y
+            familiares en un ambiente pura vida disfrutando de música y TV con
+            espacio de parqueo para motos o carros y principalmente un servicio
+            profesional y garantizado.
           </p>
         </div>
         <Scroll type="id" element="footer">
@@ -110,9 +103,9 @@ const IndexPage = () => (
     <section id="footer">
       <div className="container">
         <header className="major">
-          <h2>Get in touch</h2>
+          <h2>Contacta con nosotros</h2>
         </header>
-        <form method="post" action="#">
+        {/* <form method="post" action="#">
           <div className="row gtr-uniform">
             <div className="col-6 col-12-xsmall">
               <input type="text" name="name" id="name" placeholder="Name" />
@@ -140,8 +133,8 @@ const IndexPage = () => (
               </ul>
             </div>
           </div>
-        </form>
-        <Link to="/Elements"> Check out Elements page</Link>
+        </form> */}
+        <h1>Haga clic en el icono de abajo para contactarnos</h1>
       </div>
       <Footer />
     </section>

@@ -16,7 +16,7 @@ export default function Footer() {
           );
         })}
       </ul>
-      <ul className="copyright">
+      {/* <ul className="copyright">
         <li>&copy; Highlights</li>
         <li>
           Design: <a href="http://html5up.net">HTML5 UP</a>
@@ -24,7 +24,7 @@ export default function Footer() {
         <li>
           Demo Images: <a href="http://unsplash.com">Unsplash</a>
         </li>
-      </ul>
+      </ul> */}
     </footer>
   );
 }
