@@ -15,7 +15,7 @@ module.exports = {
     {
       icon: 'fa-facebook',
       name: 'Facebook',
-      url: 'https://facebook.com/luiscamachocastro',
+      url: 'https://www.facebook.com/luisenrique.camachocastro',
     },
     {
       icon: 'fa-envelope-o',
